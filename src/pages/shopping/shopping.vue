@@ -1,6 +1,6 @@
 <template>
 	<div class="shopping">
-    <!-- <h2>购物车vuex案例</h2>
+    <h2>购物车vuex案例</h2>
 		<div style="display:flex">
 			<div>选择</div>
 			<div class="p">衣服</div>
@@ -37,14 +37,14 @@
     <hr>
     <hr>
     <hr>
-    <h2>电影后台接口数据获取</h2> -->
+    <h2>电影后台接口数据获取</h2>
     <Liding v-show="this.shopping.showLoadings"></Liding>
     <div v-for="item in this.shopping.film" :key='item.id'>
-      <div>{{item.name}}111</div>
+      <div>{{item.name}}</div>
       <!-- <img :src='item.imageUrl' alt=""> -->
     </div>
     <div v-for="item in this.shopping.comment" :key='item.id'>
-      <div>{{item.name}}222</div>
+      <div>{{item.name}}</div>
       <!-- <img :src='item.imageUrl' alt=""> -->
     </div>
 	</div>
